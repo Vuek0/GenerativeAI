@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Unbounded', 'sans-serif';
+    color: #fff;
+}
+/* p b{
+    font-weight: 500;
+    font-style: normal;
+} */
+i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.container{
+    max-width: 1620px;
+    margin: auto;
+}
+.navbar-toggler:active{
+    border: none;
+    outline: none;
+}
+
+
+.about-section{
+    margin-top: 150px;
+    
+}
+.about-container{
+    background: url("assets/images/background1.png") no-repeat; 
+    background-position-y: 10%;      
+}
+.about-container div{
+    display: flex;
+    justify-content: space-between;
+}
+.about-container div h2:nth-child(1){
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 500;
+}
+.about-container div:nth-child(1){
+    margin-bottom: 412px;
+}
+.about-container div:nth-child(1) p, b{
+    width: 313px;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.about-container div:nth-child(1) b{
+    color: #7CFE5B;
+}
+
+.about-container div:nth-child(2) p{
+    width: 1000px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.participate{
+    width: 390px;
+    height: 86px;
+    background: #7CFE5B;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 22px;
+
+}
+
+.learn-card{
+    width: 519px;
+    height: 519px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learn-cards-top, .learn-cards-bottom{
+    display: flex;
+}
+.learn-card:nth-child(even){
+    background: #7CFE5B;
+    margin-left: 20px;
+    border-radius: 50px;
+    
+}
+.learn-card:nth-child(even) *{
+    color: #000;
+}
+.learn-card-header{
+    display: flex;
+    align-items: flex-start;
+}
+.learn-card-header p{
+    font-size: 20px;
+}
+.learn-card-container{
+    width: 447px;
+    height: 436px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.month{
+    font-size: 50px;
+}
+.learn-cards-top .learn-card:nth-child(1){
+    background: #C35DF5;
+    border-radius: 0px 50px;
+}
+.learn-cards-bottom .learn-card:nth-child(1){
+    background-image: url('assets/images/card-image.png');
+    border-radius: 50px;
+}
+.learn-cards-bottom .learn-card:nth-child(2){
+    border-radius: 0 50px;
+}
+.learn-cards-bottom{
+    margin-top: 20px;
+    align-self: flex-end;
+    float: right;
+}
+.instructors-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instructors p{
+    align-self: flex-start;
+    margin-top: 314px;
+    font-size: 70px;
+    font-weight: 500;
+}
+img[alt="block-mobile"]{
+    display: none;
+}
+
+.withus{
+    margin-top: 320px;
+}
+.withus-form{
+    margin-top: 150px;
+}
+.withus-container{
+    display: flex;
+}
+.withus-container div{
+    width: 50%;
+}
+.withus-text p:nth-child(1){
+    font-size: 70px;
+}
+.withus p:nth-child(2), b{
+    font-size: 30px;
+}
+.withus b{
+    color: #7CFE5B;
+}
+input, select{
+    display: flex;
+    width: 800px;
+    height: 74px;
+    background: #343538 !important;
+    border: none !important;
+    border-radius: 50px !important;
+    align-items: center;
+}
+input{
+    padding: 32px 0px 32px 32px !important;
+    margin-bottom: 48px !important;
+    color: #B4B4B4 !important;
+}
+select{
+    font-size: 16px !important;
+    padding-left: 32px !important;
+    margin-bottom: 63px;
+}
+input::placeholder, select{
+    color: #B4B4B4 !important;
+}
+
+.end-header{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 175px;
+    letter-spacing: 2.7px;
+    font-weight: 500;
+}
+footer{
+    margin-top: 331px;
+    padding-bottom: 70px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+}
+.links div{
+    display: flex;
+    flex-direction: column;
+}
+.links div:nth-child(1){
+    margin-right: 121px;
+}
+.links a{
+    opacity: 0.6;
+}
+.socials{
+    display: flex;
+}
+.socials .wrapper{
+    margin-right: 101px;
+}
+footer a.participate{
+    width: 300px;
+    height: 86px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+}
+.top{
+    display: flex;
+}
+@media(min-width:992px){
+    .nav-item:nth-child(1){
+        margin-left: 200px;
+    }
+    .nav-item:last-child{
+        margin-left: 300px;
+    }
+    .top img{
+        margin-right: 187px;
+    }
+}
+
+@media(max-width:425px){
+    i{
+        display: none;
+    }
+    .navbar-brand{
+        margin-top: 1px;
+    }
+    .about-container{
+        background-size: 200%;
+        background-position-x: 50%;
+        background-image: url('assets/images/bg-mobile.png');
+    }
+    .about-container div{
+        flex-direction: column;
+    }
+    .about-container div:nth-child(1){
+        margin-bottom: 73px;
+    }
+    .about-container div:nth-child(1) h2{
+        font-size: 30px !important;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    .about-container div:nth-child(1) p{
+        align-self: flex-end;
+        font-size: 18px;
+        line-height: 21px;
+        width: 266px;
+    }
+    .about-container div:nth-child(1) p b{
+        font-size: 18px;
+        line-height: 19px;
+    }
+    
+    .about-container div:nth-child(2) p{
+        width: 100%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about-container div:nth-child(2) a{
+        width: 100%;
+    }
+
+    .learn-header{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .learn-header img:nth-child(2){
+        width: 85px;
+        height: 98px;
+        transform: rotate(-25deg);
+        align-self: flex-end;
+    }
+    .learn-card{
+        width: 146px;
+        height: 146px;
+    }
+    .learn-card-container{
+        width: 120px;
+        height: 130px;
+    }
+    .learn-card-header p{
+        font-size: 12px;
+    }
+    .learn-card-header img{
+        width: 30px;
+        height: 30px;
+    }
+    .month{
+        font-size: 22px;
+    }
+    .learn-cards-top .learn-card:nth-child(2), .learn-cards-bottom .learn-card:nth-child(1){
+        border-radius: 14px;
+    }
+    .learn-cards-top .learn-card:nth-child(1), .learn-cards-bottom .learn-card:nth-child(2){
+        border-radius: 0 14px;
+    }
+    .instructors{
+        margin-top: 350px;
+    }
+    .instructors p{
+        display: none;
+    }
+    img[alt="block"]{
+        display: none;
+    }
+    img[alt="block-mobile"]{
+        display: block;
+    }
+
+    .withus-container{
+        flex-direction: column;
+    }
+    .withus img{
+        display: none;
+    }
+    .withus-text{
+        width: 100% !important;
+    }
+    .withus-text p:nth-child(1){
+        font-size: 30px;
+    }
+    .withus-text br{
+        display: none;
+    }
+    .withus-text p:nth-child(2), b{
+        font-size: 18px;
+    }
+    .withus-form{
+        width: 100% !important;
+        margin-top: 52px;
+    }
+    input{
+        margin-bottom: 22px !important;
+    }
+    .withus a{
+        width: 100%;
+    }
+    input, select{
+        width: 100%;
+    }
+
+    .end-header{
+        text-align: center;
+        font-size: 38px;
+        letter-spacing: 1.14px;
+    }
+    footer{
+        margin-top: 78px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .top img{
+        width: 134px;
+        height: 27px;
+    }
+    .links{
+        flex-direction: column;
+        width: 100px;
+        gap: 20px;
+    }
+    .links div{
+        gap: 20px;
+    }
+    .socials{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .socials .wrapper{
+        margin: 0;
+    }
+    .wrapper img{
+        margin-right: 40px;
+    }
+    .wrapper img:last-child{
+        margin-right: 0;
+    }
+    .socials .wrapper div{
+        text-align: center;
+    }
+    .socials a{
+        margin-bottom: 47px;
+    }
+}
+
